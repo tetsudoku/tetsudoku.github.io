@@ -3,17 +3,168 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tetsudoku</title>
-  <link rel="stylesheet" href="/styles.css">
+  <title>Tetsudoku — Smart hints, fresh puzzles</title>
+  <meta name="description" content="Tetsudoku delivers four fresh Sudoku puzzles every morning and teaches you to solve them. Stuck? It shows the next logical step and explains the strategy behind it.">
+
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tetsudoku — Smart hints, fresh puzzles">
+  <meta property="og:description" content="Four fresh Sudoku puzzles every morning. Stuck? Tetsudoku shows the next logical step and teaches you the strategy behind it.">
+  <meta property="og:url" content="https://tetsudoku.app/">
+  <meta property="og:image" content="https://tetsudoku.app/icon.png">
+  <meta name="twitter:card" content="summary">
+
+  <!-- Figtree, the app's typeface -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Set the theme before first paint to avoid a flash -->
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved) document.documentElement.dataset.theme = saved;
+      } catch (e) {}
+    })();
+  </script>
 </head>
 <body>
-  <main class="wrap landing">
-    <h1>Tetsudoku</h1>
-    <p>A landing page is coming soon.</p>
-    <nav>
-      <a href="/privacy/">Privacy Policy</a>
-      <a href="/terms/">Terms &amp; Conditions</a>
-    </nav>
+  <header class="topbar wrap">
+    <a class="brand" href="index.html">
+      <img src="icon.png" alt="" width="32" height="32">
+      <span>Tetsudoku</span>
+    </a>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+      <span class="theme-toggle__icon" aria-hidden="true"></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero wrap">
+      <img class="hero__icon" src="icon.png" alt="Tetsudoku app icon" width="128" height="128">
+      <h1 class="hero__title">Tetsudoku</h1>
+      <p class="hero__tagline">Smart hints, fresh puzzles.</p>
+      <p class="hero__lead">
+        Four fresh Sudoku puzzles arrive every morning — one each of Easy, Medium,
+        Hard, and Expert. Stuck on a move? Most apps hand you the answer. Tetsudoku
+        shows you the next logical step and teaches you the strategy behind it.
+      </p>
+      <div class="hero__cta">
+        <a class="appstore-badge" href="https://apps.apple.com/app/id6762089912" aria-label="Download Tetsudoku on the App Store">
+          <img class="appstore-badge__img appstore-badge__img--light" src="appstore-badge-black.svg" alt="Download on the App Store">
+          <img class="appstore-badge__img appstore-badge__img--dark" src="appstore-badge-white.svg" alt="">
+        </a>
+      </div>
+      <p class="hero__note">Coming soon · iPhone &amp; iPad · Free to play · Available in 9 languages</p>
+    </section>
+
+    <!-- Features -->
+    <section class="section wrap" id="features">
+      <h2 class="section__title">Everything you need to solve smarter</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">☀️</div>
+          <h3>A new puzzle every day</h3>
+          <p>Four puzzles each morning across every difficulty, plus twenty more each week. The archive keeps every past puzzle, ready to revisit.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">💡</div>
+          <h3>Hints that teach</h3>
+          <p>Tetsudoku shows the next logical step, names the cells involved, and explains the strategy behind it — so you need fewer hints over time.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">🎓</div>
+          <h3>Learn fifteen strategies</h3>
+          <p>From naked singles to X-Wings and Swordfish — each strategy comes with a full explanation and practice puzzles to master it.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">✏️</div>
+          <h3>No penciling by hand</h3>
+          <p>Candidates are tracked automatically. Tap to highlight every cell that can hold a digit, or find cells with exactly two candidates in one tap.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">📰</div>
+          <h3>Bring your own puzzle</h3>
+          <p>Spotted a puzzle in the newspaper? Enter it by hand and solve it right here, with all the same hints and highlighting.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">📈</div>
+          <h3>Track your progress</h3>
+          <p>Best and average solve times for each difficulty, puzzles finished, and hints used. Watch yourself improve, game after game.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section wrap" id="pricing">
+      <h2 class="section__title">Simple, honest pricing</h2>
+      <div class="pricing">
+        <article class="plan">
+          <h3 class="plan__name">Free</h3>
+          <p class="plan__price">$0</p>
+          <p class="plan__desc">Always free, forever.</p>
+          <ul class="plan__list">
+            <li>A fresh Easy puzzle every day</li>
+            <li>Every past Easy puzzle in the archive</li>
+            <li>Smart hints &amp; the Learn section</li>
+            <li>Automatic candidate tracking</li>
+            <li>Solve puzzles from the newspaper</li>
+          </ul>
+        </article>
+        <article class="plan plan--featured">
+          <span class="plan__flag">One-time purchase</span>
+          <h3 class="plan__name">Tetsudoku Unlimited</h3>
+          <p class="plan__price">Pay once</p>
+          <p class="plan__desc">No subscription. Ever.</p>
+          <ul class="plan__list">
+            <li>Everything in Free</li>
+            <li>Daily Medium, Hard &amp; Expert puzzles</li>
+            <li>The full archive at every difficulty</li>
+            <li>Generate custom puzzles at any difficulty, any time</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Closing CTA -->
+    <section class="cta wrap">
+      <h2>Fresh puzzles are on the way</h2>
+      <p>Tetsudoku is coming soon to the App Store.</p>
+      <a class="appstore-badge" href="https://apps.apple.com/app/id6762089912" aria-label="Download Tetsudoku on the App Store">
+        <img class="appstore-badge__img appstore-badge__img--light" src="appstore-badge-black.svg" alt="Download on the App Store">
+        <img class="appstore-badge__img appstore-badge__img--dark" src="appstore-badge-white.svg" alt="">
+      </a>
+    </section>
   </main>
+
+  <footer class="footer wrap">
+    <div class="footer__links">
+      <a href="privacy/index.html">Privacy Policy</a>
+      <a href="terms/index.html">Terms &amp; Conditions</a>
+    </div>
+    <p class="footer__copy">© 2024–2026 Anodized Software, Inc. All rights reserved.</p>
+  </footer>
+
+  <script>
+    (function () {
+      var toggle = document.getElementById('theme-toggle');
+      function current() {
+        return document.documentElement.dataset.theme
+          || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      }
+      toggle.addEventListener('click', function () {
+        var next = current() === 'dark' ? 'light' : 'dark';
+        document.documentElement.dataset.theme = next;
+        try { localStorage.setItem('theme', next); } catch (e) {}
+      });
+    })();
+  </script>
 </body>
 </html>

@@ -4,11 +4,26 @@ Static website for Tetsudoku, served via GitHub Pages.
 
 ## Current scope
 
+- `/` — landing page (`index.html` + `styles.css`, `icon.png` for the hero/favicon/social image)
 - `/privacy/` — Privacy Policy
 - `/terms/` — Terms & Conditions
-- `/` — landing page placeholder (full landing page to come later)
 
-Plain HTML/CSS, no build step.
+Plain HTML/CSS, no build step. The landing page uses the Figtree webfont (Google
+Fonts), a rust accent matching the app icon, and a light/dark toggle that respects
+the OS preference by default and persists a manual override in `localStorage`.
+
+`icon.png` is copied from the app repo
+(`tetsudoku-kmp/iosApp/iosApp/Assets.xcassets/AppIcon.appiconset/app-icon-1024.png`).
+Re-copy it if the app icon changes.
+
+App Store buttons: the official Apple "Download on the App Store" badge
+(`appstore-badge-black.svg` / `appstore-badge-white.svg`, black on light / white on
+dark) links to the real listing `https://apps.apple.com/app/id6762089912` (Apple ID
+from App Store Connect). The link is dead until the app is published. "Coming soon"
+context lives in the surrounding copy, since Apple provides no coming-soon badge
+variant. Badges are Apple's official artwork from
+`toolbox.marketingtools.apple.com` — do not modify them (App Store marketing
+guidelines).
 
 ## Source of truth
 
