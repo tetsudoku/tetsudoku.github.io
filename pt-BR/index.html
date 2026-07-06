@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tetsudoku: Dicas espertas, puzzles novos.</title>
+  <meta name="description" content="O Tetsudoku traz quatro puzzles de Sudoku novos toda manhã e ensina você a resolvê-los. Travado? Ele mostra o próximo passo lógico e explica a estratégia.">
+  <link rel="canonical" href="https://tetsudoku.app/pt-BR/">
+  <link rel="alternate" hreflang="en" href="https://tetsudoku.app/">
+  <link rel="alternate" hreflang="de" href="https://tetsudoku.app/de/">
+  <link rel="alternate" hreflang="es" href="https://tetsudoku.app/es/">
+  <link rel="alternate" hreflang="fr" href="https://tetsudoku.app/fr/">
+  <link rel="alternate" hreflang="it" href="https://tetsudoku.app/it/">
+  <link rel="alternate" hreflang="ja" href="https://tetsudoku.app/ja/">
+  <link rel="alternate" hreflang="ko" href="https://tetsudoku.app/ko/">
+  <link rel="alternate" hreflang="pt-BR" href="https://tetsudoku.app/pt-BR/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://tetsudoku.app/zh-Hans/">
+  <link rel="alternate" hreflang="x-default" href="https://tetsudoku.app/">
+  <link rel="icon" type="image/png" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tetsudoku: Dicas espertas, puzzles novos.">
+  <meta property="og:description" content="Quatro puzzles de Sudoku novos toda manhã. Travado? O Tetsudoku mostra o próximo passo lógico e te ensina a estratégia.">
+  <meta property="og:url" content="https://tetsudoku.app/pt-BR/">
+  <meta property="og:image" content="https://tetsudoku.app/icon.png">
+  <meta property="og:locale" content="pt_BR">
+  <meta name="twitter:card" content="summary">
+
+  <!-- Figtree, the app's typeface -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../styles.css">
+
+  <!-- Set the theme before first paint to avoid a flash -->
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved) document.documentElement.dataset.theme = saved;
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <header class="topbar wrap">
+    <a class="brand" href="../index.html">
+      <img src="../icon.png" alt="" width="32" height="32">
+      <span>Tetsudoku</span>
+    </a>
+    <div class="topbar__controls">
+      <label class="visually-hidden" for="lang-select">Selecionar idioma</label>
+      <select id="lang-select" class="lang-select" aria-label="Selecionar idioma">
+        <option value="../index.html">English</option>
+        <option value="../de/index.html">Deutsch</option>
+        <option value="../es/index.html">Español</option>
+        <option value="../fr/index.html">Français</option>
+        <option value="../it/index.html">Italiano</option>
+        <option value="../ja/index.html">日本語</option>
+        <option value="../ko/index.html">한국어</option>
+        <option value="../pt-BR/index.html" selected>Português (Brasil)</option>
+        <option value="../zh-Hans/index.html">简体中文</option>
+      </select>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Alternar modo escuro">
+        <span class="theme-toggle__icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero wrap">
+      <img class="hero__icon" src="../icon.png" alt="Tetsudoku" width="128" height="128">
+      <h1 class="hero__title">Tetsudoku</h1>
+      <p class="hero__tagline">Dicas espertas, puzzles novos.</p>
+      <p class="hero__lead">Toda manhã chegam quatro puzzles novos, um de Fácil, Médio, Difícil e Especialista. Travado em uma jogada? A maioria dos apps te dá a resposta. O Tetsudoku mostra o próximo passo lógico e depois te ensina a estratégia.</p>
+      <div class="hero__cta">
+        <a class="appstore-badge" href="https://apps.apple.com/app/id6762089912" aria-label="Baixe na App Store">
+          <img class="appstore-badge__img appstore-badge__img--light" src="../badges/appstore-pt-BR-black.svg" alt="Baixe na App Store">
+          <img class="appstore-badge__img appstore-badge__img--dark" src="../badges/appstore-pt-BR-white.svg" alt="">
+        </a>
+      </div>
+      <p class="hero__note">Em breve · iPhone &amp; iPad · Grátis para jogar · 9 idiomas</p>
+    </section>
+
+    <!-- Features -->
+    <section class="section wrap" id="features">
+      <h2 class="section__title">Tudo para resolver com esperteza</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">☀️</div>
+          <h3>Um puzzle novo todo dia</h3>
+          <p>Quatro puzzles toda manhã em todas as dificuldades, mais vinte por semana. O arquivo guarda todos os puzzles anteriores, prontos para revisitar.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">💡</div>
+          <h3>Dicas que ensinam</h3>
+          <p>O Tetsudoku mostra o próximo passo lógico, aponta as células envolvidas e explica a estratégia. Com o tempo, você precisa de menos dicas.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">🎓</div>
+          <h3>Aprenda quinze estratégias</h3>
+          <p>De técnicas básicas a X-Wing e Swordfish: cada uma vem com uma explicação completa e puzzles de prática para dominá-la.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">✏️</div>
+          <h3>Sem anotar à mão</h3>
+          <p>O Tetsudoku controla os candidatos por você. Toque para destacar todas as células que podem receber um dígito, ou encontre as que têm exatamente dois candidatos com um toque.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">📰</div>
+          <h3>Traga seu próprio puzzle</h3>
+          <p>Achou um puzzle no jornal? Digite-o à mão e resolva aqui, com as mesmas dicas e destaques.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">📈</div>
+          <h3>Acompanhe sua evolução</h3>
+          <p>Melhores tempos e tempos médios por dificuldade, puzzles concluídos e dicas usadas. Veja você mesmo melhorar, partida após partida.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section wrap" id="pricing">
+      <h2 class="section__title">Uma compra desbloqueia tudo</h2>
+      <div class="pricing">
+        <article class="plan">
+          <h3 class="plan__name">Grátis</h3>
+          <p class="plan__price">R$ 0</p>
+          <p class="plan__desc">Grátis para sempre.</p>
+          <ul class="plan__list">
+            <li>Um puzzle Fácil novo todo dia</li>
+            <li>Todos os puzzles Fáceis anteriores no arquivo</li>
+            <li>Dicas inteligentes e a seção Aprender</li>
+            <li>Controle automático de candidatos</li>
+            <li>Resolva puzzles do jornal</li>
+          </ul>
+        </article>
+        <article class="plan plan--featured">
+          <span class="plan__flag">Compra única</span>
+          <h3 class="plan__name">Tetsudoku Ilimitado</h3>
+          <p class="plan__price">Pague uma vez</p>
+          <p class="plan__desc">Sem assinatura. Nunca.</p>
+          <ul class="plan__list">
+            <li>Tudo do Grátis</li>
+            <li>Puzzles Médio, Difícil e Especialista todo dia</li>
+            <li>O arquivo completo em todas as dificuldades</li>
+            <li>Gere puzzles personalizados em qualquer dificuldade, a qualquer hora</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Closing CTA -->
+    <section class="cta wrap">
+      <h2>Novos puzzles estão a caminho</h2>
+      <p>O Tetsudoku chega em breve à App Store.</p>
+      <a class="appstore-badge" href="https://apps.apple.com/app/id6762089912" aria-label="Baixe na App Store">
+        <img class="appstore-badge__img appstore-badge__img--light" src="../badges/appstore-pt-BR-black.svg" alt="Baixe na App Store">
+        <img class="appstore-badge__img appstore-badge__img--dark" src="../badges/appstore-pt-BR-white.svg" alt="">
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <div class="footer__links">
+      <a href="../privacy/index.html">Política de Privacidade</a>
+      <a href="../terms/index.html">Termos e Condições</a>
+    </div>
+    <p class="footer__copy">© 2024–2026 Anodized Software, Inc. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    (function () {
+      // Theme toggle
+      var toggle = document.getElementById('theme-toggle');
+      function current() {
+        return document.documentElement.dataset.theme
+          || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      }
+      toggle.addEventListener('click', function () {
+        var next = current() === 'dark' ? 'light' : 'dark';
+        document.documentElement.dataset.theme = next;
+        try { localStorage.setItem('theme', next); } catch (e) {}
+      });
+
+      // Language switcher
+      var lang = document.getElementById('lang-select');
+      lang.addEventListener('change', function (e) {
+        window.location.href = e.target.value;
+      });
+    })();
+  </script>
+</body>
+</html>

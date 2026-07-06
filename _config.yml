@@ -8,3 +8,7 @@
 exclude:
   - CLAUDE.md
   - README.md
+  # Build sources for the generated per-language pages (not part of the site).
+  - build.py
+  - template.html
+  - translations.json

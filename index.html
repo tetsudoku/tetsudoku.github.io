@@ -3,18 +3,29 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tetsudoku — Smart hints, fresh puzzles</title>
+  <title>Tetsudoku: Smart hints, fresh puzzles.</title>
   <meta name="description" content="Tetsudoku delivers four fresh Sudoku puzzles every morning and teaches you to solve them. Stuck? It shows the next logical step and explains the strategy behind it.">
-
+  <link rel="canonical" href="https://tetsudoku.app/">
+  <link rel="alternate" hreflang="en" href="https://tetsudoku.app/">
+  <link rel="alternate" hreflang="de" href="https://tetsudoku.app/de/">
+  <link rel="alternate" hreflang="es" href="https://tetsudoku.app/es/">
+  <link rel="alternate" hreflang="fr" href="https://tetsudoku.app/fr/">
+  <link rel="alternate" hreflang="it" href="https://tetsudoku.app/it/">
+  <link rel="alternate" hreflang="ja" href="https://tetsudoku.app/ja/">
+  <link rel="alternate" hreflang="ko" href="https://tetsudoku.app/ko/">
+  <link rel="alternate" hreflang="pt-BR" href="https://tetsudoku.app/pt-BR/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://tetsudoku.app/zh-Hans/">
+  <link rel="alternate" hreflang="x-default" href="https://tetsudoku.app/">
   <link rel="icon" type="image/png" href="icon.png">
   <link rel="apple-touch-icon" href="icon.png">
 
   <!-- Open Graph / social -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Tetsudoku — Smart hints, fresh puzzles">
+  <meta property="og:title" content="Tetsudoku: Smart hints, fresh puzzles.">
   <meta property="og:description" content="Four fresh Sudoku puzzles every morning. Stuck? Tetsudoku shows the next logical step and teaches you the strategy behind it.">
   <meta property="og:url" content="https://tetsudoku.app/">
   <meta property="og:image" content="https://tetsudoku.app/icon.png">
+  <meta property="og:locale" content="en_US">
   <meta name="twitter:card" content="summary">
 
   <!-- Figtree, the app's typeface -->
@@ -40,29 +51,39 @@
       <img src="icon.png" alt="" width="32" height="32">
       <span>Tetsudoku</span>
     </a>
-    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
-      <span class="theme-toggle__icon" aria-hidden="true"></span>
-    </button>
+    <div class="topbar__controls">
+      <label class="visually-hidden" for="lang-select">Select language</label>
+      <select id="lang-select" class="lang-select" aria-label="Select language">
+        <option value="index.html" selected>English</option>
+        <option value="de/index.html">Deutsch</option>
+        <option value="es/index.html">Español</option>
+        <option value="fr/index.html">Français</option>
+        <option value="it/index.html">Italiano</option>
+        <option value="ja/index.html">日本語</option>
+        <option value="ko/index.html">한국어</option>
+        <option value="pt-BR/index.html">Português (Brasil)</option>
+        <option value="zh-Hans/index.html">简体中文</option>
+      </select>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <span class="theme-toggle__icon" aria-hidden="true"></span>
+      </button>
+    </div>
   </header>
 
   <main>
     <!-- Hero -->
     <section class="hero wrap">
-      <img class="hero__icon" src="icon.png" alt="Tetsudoku app icon" width="128" height="128">
+      <img class="hero__icon" src="icon.png" alt="Tetsudoku" width="128" height="128">
       <h1 class="hero__title">Tetsudoku</h1>
       <p class="hero__tagline">Smart hints, fresh puzzles.</p>
-      <p class="hero__lead">
-        Four fresh Sudoku puzzles arrive every morning — one each of Easy, Medium,
-        Hard, and Expert. Stuck on a move? Most apps hand you the answer. Tetsudoku
-        shows you the next logical step and teaches you the strategy behind it.
-      </p>
+      <p class="hero__lead">Four fresh Sudoku puzzles arrive every morning, one each of Easy, Medium, Hard, and Expert. Stuck on a move? Most apps hand you the answer. Tetsudoku shows you the next logical step, then teaches the strategy behind it.</p>
       <div class="hero__cta">
-        <a class="appstore-badge" href="https://apps.apple.com/app/id6762089912" aria-label="Download Tetsudoku on the App Store">
-          <img class="appstore-badge__img appstore-badge__img--light" src="appstore-badge-black.svg" alt="Download on the App Store">
-          <img class="appstore-badge__img appstore-badge__img--dark" src="appstore-badge-white.svg" alt="">
+        <a class="appstore-badge" href="https://apps.apple.com/app/id6762089912" aria-label="Download on the App Store">
+          <img class="appstore-badge__img appstore-badge__img--light" src="badges/appstore-en-black.svg" alt="Download on the App Store">
+          <img class="appstore-badge__img appstore-badge__img--dark" src="badges/appstore-en-white.svg" alt="">
         </a>
       </div>
-      <p class="hero__note">Coming soon · iPhone &amp; iPad · Free to play · Available in 9 languages</p>
+      <p class="hero__note">Coming soon · iPhone &amp; iPad · Free to play · 9 languages</p>
     </section>
 
     <!-- Features -->
@@ -77,22 +98,22 @@
         <article class="card">
           <div class="card__icon" aria-hidden="true">💡</div>
           <h3>Hints that teach</h3>
-          <p>Tetsudoku shows the next logical step, names the cells involved, and explains the strategy behind it — so you need fewer hints over time.</p>
+          <p>Tetsudoku shows the next logical step, names the cells involved, and explains the strategy behind it. Over time, you need fewer hints.</p>
         </article>
         <article class="card">
           <div class="card__icon" aria-hidden="true">🎓</div>
           <h3>Learn fifteen strategies</h3>
-          <p>From naked singles to X-Wings and Swordfish — each strategy comes with a full explanation and practice puzzles to master it.</p>
+          <p>From naked singles to X-Wings and Swordfish, each comes with a full explanation and practice puzzles to master it.</p>
         </article>
         <article class="card">
           <div class="card__icon" aria-hidden="true">✏️</div>
           <h3>No penciling by hand</h3>
-          <p>Candidates are tracked automatically. Tap to highlight every cell that can hold a digit, or find cells with exactly two candidates in one tap.</p>
+          <p>Tetsudoku tracks candidates for you. Tap to highlight every cell that can hold a digit, or spot cells with exactly two candidates in one tap.</p>
         </article>
         <article class="card">
           <div class="card__icon" aria-hidden="true">📰</div>
           <h3>Bring your own puzzle</h3>
-          <p>Spotted a puzzle in the newspaper? Enter it by hand and solve it right here, with all the same hints and highlighting.</p>
+          <p>Spotted a puzzle in the newspaper? Enter it by hand and solve it here, with the same hints and highlighting.</p>
         </article>
         <article class="card">
           <div class="card__icon" aria-hidden="true">📈</div>
@@ -104,12 +125,12 @@
 
     <!-- Pricing -->
     <section class="section wrap" id="pricing">
-      <h2 class="section__title">Simple, honest pricing</h2>
+      <h2 class="section__title">One purchase unlocks everything</h2>
       <div class="pricing">
         <article class="plan">
           <h3 class="plan__name">Free</h3>
           <p class="plan__price">$0</p>
-          <p class="plan__desc">Always free, forever.</p>
+          <p class="plan__desc">Free forever.</p>
           <ul class="plan__list">
             <li>A fresh Easy puzzle every day</li>
             <li>Every past Easy puzzle in the archive</li>
@@ -137,9 +158,9 @@
     <section class="cta wrap">
       <h2>Fresh puzzles are on the way</h2>
       <p>Tetsudoku is coming soon to the App Store.</p>
-      <a class="appstore-badge" href="https://apps.apple.com/app/id6762089912" aria-label="Download Tetsudoku on the App Store">
-        <img class="appstore-badge__img appstore-badge__img--light" src="appstore-badge-black.svg" alt="Download on the App Store">
-        <img class="appstore-badge__img appstore-badge__img--dark" src="appstore-badge-white.svg" alt="">
+      <a class="appstore-badge" href="https://apps.apple.com/app/id6762089912" aria-label="Download on the App Store">
+        <img class="appstore-badge__img appstore-badge__img--light" src="badges/appstore-en-black.svg" alt="Download on the App Store">
+        <img class="appstore-badge__img appstore-badge__img--dark" src="badges/appstore-en-white.svg" alt="">
       </a>
     </section>
   </main>
@@ -154,6 +175,7 @@
 
   <script>
     (function () {
+      // Theme toggle
       var toggle = document.getElementById('theme-toggle');
       function current() {
         return document.documentElement.dataset.theme
@@ -163,6 +185,12 @@
         var next = current() === 'dark' ? 'light' : 'dark';
         document.documentElement.dataset.theme = next;
         try { localStorage.setItem('theme', next); } catch (e) {}
+      });
+
+      // Language switcher
+      var lang = document.getElementById('lang-select');
+      lang.addEventListener('change', function (e) {
+        window.location.href = e.target.value;
       });
     })();
   </script>

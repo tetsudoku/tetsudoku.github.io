@@ -18,11 +18,36 @@ server; open the HTML files directly to preview.
 
 ## Structure
 
-- `index.html` — landing page
-- `styles.css` — all styling (only `index.html` links it)
+- `index.html` — English landing page (**generated**, see below)
+- `de/`, `es/`, `fr/`, `it/`, `ja/`, `ko/`, `pt-BR/`, `zh-Hans/` — per-language pages (**generated**)
+- `template.html` — page template with `{{placeholders}}` (source)
+- `translations.json` — all copy + language metadata for every locale (source)
+- `build.py` — generator: `template.html` + `translations.json` → the per-language `index.html` files (source)
+- `styles.css` — all styling (only the landing pages link it)
 - `icon.png` — app icon; reused for hero, favicon, apple-touch-icon, OG image
-- `appstore-badge-black.svg` / `appstore-badge-white.svg` — official Apple badges
-- `privacy/index.html`, `terms/index.html` — legal pages
+- `badges/appstore-<lang>-{black,white}.svg` — official localized Apple badges
+- `privacy/index.html`, `terms/index.html` — legal pages (English only)
+
+## The landing pages are generated — do not hand-edit them
+
+`index.html` and every `<lang>/index.html` are built by `build.py`. Editing them
+directly is overwritten on the next build. To change the site:
+
+1. Edit copy in `translations.json` (and/or layout in `template.html`).
+2. Run `python3 build.py` (no dependencies; pure standard library).
+3. Commit the regenerated pages together with the source changes.
+
+The generator writes English to `/index.html` (root) and each other language to
+`/<lang>/index.html`, with per-language `<title>`, meta/OG tags, `<html lang>`,
+canonical URL, and `hreflang` alternates. Asset paths use a relative `base` (`` at
+root, `../` in subdirs) so `file://` preview works everywhere. The header language
+`<select>` links to the sibling page in each language.
+
+Translations mirror the app's official App Store terminology (product names like
+"Tetsudoku Unbegrenzt", the difficulty tiers, the localized taglines). When adding
+copy, keep it consistent with the app's localized strings. Apple badges are
+localized per store locale (Simplified Chinese uses Apple's `zh-cn` slug); do not
+modify the badge artwork.
 
 ## Rules and gotchas
 

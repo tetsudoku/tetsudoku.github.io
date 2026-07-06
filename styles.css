@@ -93,6 +93,50 @@ h1, h2, h3 { line-height: 1.15; letter-spacing: -0.02em; }
 
 .brand img { border-radius: 7px; display: block; }
 
+.topbar__controls {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.lang-select {
+  appearance: none;
+  -webkit-appearance: none;
+  font: inherit;
+  font-size: .95rem;
+  color: var(--fg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: .4rem 2rem .4rem .9rem;
+  cursor: pointer;
+  transition: border-color .15s ease;
+  /* chevron */
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--muted) 50%),
+    linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+  background-position:
+    calc(100% - 1.05rem) center,
+    calc(100% - 0.75rem) center;
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+}
+
+.lang-select:hover { border-color: var(--accent); }
+.lang-select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
 .theme-toggle {
   width: 40px;
   height: 40px;

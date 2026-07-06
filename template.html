@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}}</title>
+  <meta name="description" content="{{meta_description}}">
+  <link rel="canonical" href="{{canonical}}">
+{{hreflang_links}}
+  <link rel="icon" type="image/png" href="{{base}}icon.png">
+  <link rel="apple-touch-icon" href="{{base}}icon.png">
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{og_description}}">
+  <meta property="og:url" content="{{canonical}}">
+  <meta property="og:image" content="{{domain}}/icon.png">
+  <meta property="og:locale" content="{{og_locale}}">
+  <meta name="twitter:card" content="summary">
+
+  <!-- Figtree, the app's typeface -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{base}}styles.css">
+
+  <!-- Set the theme before first paint to avoid a flash -->
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved) document.documentElement.dataset.theme = saved;
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <header class="topbar wrap">
+    <a class="brand" href="{{base}}index.html">
+      <img src="{{base}}icon.png" alt="" width="32" height="32">
+      <span>Tetsudoku</span>
+    </a>
+    <div class="topbar__controls">
+      <label class="visually-hidden" for="lang-select">{{select_language_label}}</label>
+      <select id="lang-select" class="lang-select" aria-label="{{select_language_label}}">
+{{lang_options}}
+      </select>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="{{toggle_theme_label}}">
+        <span class="theme-toggle__icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero wrap">
+      <img class="hero__icon" src="{{base}}icon.png" alt="Tetsudoku" width="128" height="128">
+      <h1 class="hero__title">Tetsudoku</h1>
+      <p class="hero__tagline">{{tagline}}</p>
+      <p class="hero__lead">{{lead}}</p>
+      <div class="hero__cta">
+        <a class="appstore-badge" href="https://apps.apple.com/app/id6762089912" aria-label="{{badge_label}}">
+          <img class="appstore-badge__img appstore-badge__img--light" src="{{base}}badges/appstore-{{badge}}-black.svg" alt="{{badge_label}}">
+          <img class="appstore-badge__img appstore-badge__img--dark" src="{{base}}badges/appstore-{{badge}}-white.svg" alt="">
+        </a>
+      </div>
+      <p class="hero__note">{{hero_note}}</p>
+    </section>
+
+    <!-- Features -->
+    <section class="section wrap" id="features">
+      <h2 class="section__title">{{features_title}}</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">☀️</div>
+          <h3>{{card1_title}}</h3>
+          <p>{{card1_body}}</p>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">💡</div>
+          <h3>{{card2_title}}</h3>
+          <p>{{card2_body}}</p>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">🎓</div>
+          <h3>{{card3_title}}</h3>
+          <p>{{card3_body}}</p>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">✏️</div>
+          <h3>{{card4_title}}</h3>
+          <p>{{card4_body}}</p>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">📰</div>
+          <h3>{{card5_title}}</h3>
+          <p>{{card5_body}}</p>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">📈</div>
+          <h3>{{card6_title}}</h3>
+          <p>{{card6_body}}</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section wrap" id="pricing">
+      <h2 class="section__title">{{pricing_title}}</h2>
+      <div class="pricing">
+        <article class="plan">
+          <h3 class="plan__name">{{free_name}}</h3>
+          <p class="plan__price">{{free_price}}</p>
+          <p class="plan__desc">{{free_desc}}</p>
+          <ul class="plan__list">
+{{free_features}}
+          </ul>
+        </article>
+        <article class="plan plan--featured">
+          <span class="plan__flag">{{unlimited_flag}}</span>
+          <h3 class="plan__name">{{unlimited_name}}</h3>
+          <p class="plan__price">{{unlimited_price}}</p>
+          <p class="plan__desc">{{unlimited_desc}}</p>
+          <ul class="plan__list">
+{{unlimited_features}}
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Closing CTA -->
+    <section class="cta wrap">
+      <h2>{{cta_title}}</h2>
+      <p>{{cta_body}}</p>
+      <a class="appstore-badge" href="https://apps.apple.com/app/id6762089912" aria-label="{{badge_label}}">
+        <img class="appstore-badge__img appstore-badge__img--light" src="{{base}}badges/appstore-{{badge}}-black.svg" alt="{{badge_label}}">
+        <img class="appstore-badge__img appstore-badge__img--dark" src="{{base}}badges/appstore-{{badge}}-white.svg" alt="">
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <div class="footer__links">
+      <a href="{{base}}privacy/index.html">{{privacy}}</a>
+      <a href="{{base}}terms/index.html">{{terms}}</a>
+    </div>
+    <p class="footer__copy">{{copyright}}</p>
+  </footer>
+
+  <script>
+    (function () {
+      // Theme toggle
+      var toggle = document.getElementById('theme-toggle');
+      function current() {
+        return document.documentElement.dataset.theme
+          || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      }
+      toggle.addEventListener('click', function () {
+        var next = current() === 'dark' ? 'light' : 'dark';
+        document.documentElement.dataset.theme = next;
+        try { localStorage.setItem('theme', next); } catch (e) {}
+      });
+
+      // Language switcher
+      var lang = document.getElementById('lang-select');
+      lang.addEventListener('change', function (e) {
+        window.location.href = e.target.value;
+      });
+    })();
+  </script>
+</body>
+</html>

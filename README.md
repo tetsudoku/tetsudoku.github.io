@@ -4,26 +4,41 @@ Static website for Tetsudoku, served via GitHub Pages.
 
 ## Current scope
 
-- `/` — landing page (`index.html` + `styles.css`, `icon.png` for the hero/favicon/social image)
+- `/` — landing page (English), plus `/<lang>/` for eight more languages
 - `/privacy/` — Privacy Policy
 - `/terms/` — Terms & Conditions
 
-Plain HTML/CSS, no build step. The landing page uses the Figtree webfont (Google
-Fonts), a rust accent matching the app icon, and a light/dark toggle that respects
-the OS preference by default and persists a manual override in `localStorage`.
+The landing page uses the Figtree webfont (Google Fonts), a rust accent matching
+the app icon, and a light/dark toggle that respects the OS preference by default
+and persists a manual override in `localStorage`.
 
 `icon.png` is copied from the app repo
 (`tetsudoku-kmp/iosApp/iosApp/Assets.xcassets/AppIcon.appiconset/app-icon-1024.png`).
 Re-copy it if the app icon changes.
 
-App Store buttons: the official Apple "Download on the App Store" badge
-(`appstore-badge-black.svg` / `appstore-badge-white.svg`, black on light / white on
-dark) links to the real listing `https://apps.apple.com/app/id6762089912` (Apple ID
-from App Store Connect). The link is dead until the app is published. "Coming soon"
-context lives in the surrounding copy, since Apple provides no coming-soon badge
-variant. Badges are Apple's official artwork from
-`toolbox.marketingtools.apple.com` — do not modify them (App Store marketing
-guidelines).
+App Store buttons: official Apple "Download on the App Store" badges, localized per
+store locale (`badges/appstore-<lang>-{black,white}.svg`, black on light / white on
+dark), linking to `https://apps.apple.com/app/id6762089912` (Apple ID from App
+Store Connect). The link is dead until the app is published. "Coming soon" context
+lives in the surrounding copy, since Apple provides no coming-soon badge variant.
+Badges are Apple's official artwork from `toolbox.marketingtools.apple.com` — do
+not modify them (App Store marketing guidelines).
+
+## Multi-language build
+
+The landing pages are **generated**. Nine languages (en, de, es, fr, it, ja, ko,
+pt-BR, zh-Hans) are produced from a single template + translation file:
+
+- `translations.json` — all copy and per-language metadata
+- `template.html` — page template with `{{placeholders}}`
+- `build.py` — generator (standard library only, no dependencies)
+
+Edit the copy/template, then run `python3 build.py` to regenerate `index.html`
+(English, at root) and `<lang>/index.html` for the rest. **Do not hand-edit the
+generated `index.html` files** — they are overwritten on the next build. Commit the
+regenerated pages with the source changes. Deployment stays fully static; GitHub
+Pages just serves the generated files. Translations follow the app's official App
+Store terminology. Legal pages remain English-only.
 
 ## Source of truth
 
