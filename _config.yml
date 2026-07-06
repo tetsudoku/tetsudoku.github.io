@@ -1,0 +1,10 @@
+# GitHub Pages (Jekyll) configuration.
+#
+# Keep repo-management files out of the *published* site so they are not served
+# at the domain (e.g. tetsudoku.app/CLAUDE.md returns 404). The files stay in the
+# repo — this only affects what Jekyll copies into the built site.
+#
+# Note: Jekyll already ignores dotfiles/dirs (.git, .claude, etc.) automatically.
+exclude:
+  - CLAUDE.md
+  - README.md
