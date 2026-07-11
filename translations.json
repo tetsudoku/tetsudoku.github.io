@@ -16,15 +16,15 @@
   ],
   "strings": {
     "en": {
-      "tagline": "Smart hints, fresh puzzles.",
-      "lead": "Four fresh Sudoku puzzles arrive every morning, one each of Easy, Medium, Hard, and Expert. Stuck on a move? Most apps hand you the answer. Tetsudoku shows you the next logical step, then teaches the strategy behind it.",
-      "meta_description": "Tetsudoku delivers four fresh Sudoku puzzles every morning and teaches you to solve them. Stuck? It shows the next logical step and explains the strategy behind it.",
-      "og_description": "Four fresh Sudoku puzzles every morning. Stuck? Tetsudoku shows the next logical step and teaches you the strategy behind it.",
+      "tagline": "Sudoku mastery, day by day",
+      "lead": "Every Sudoku has a logical path to the end. Tetsudoku teaches you to find it. Four fresh puzzles arrive every morning, one each of Easy, Medium, Hard, and Expert. And when you're stuck, it doesn't hand you the answer — it teaches the next move.",
+      "meta_description": "Get better at Sudoku, one day at a time. Tetsudoku delivers four fresh puzzles every morning and, when you're stuck, teaches the next move — not just the answer.",
+      "og_description": "Sudoku mastery, day by day. Four fresh puzzles every morning — and when you're stuck, Tetsudoku teaches the next move, not just the answer.",
       "hero_note": "Coming soon · iPhone & iPad · Free to play · 9 languages",
       "badge_label": "Download on the App Store",
       "select_language_label": "Select language",
       "toggle_theme_label": "Toggle dark mode",
-      "features_title": "Everything you need to solve smarter",
+      "features_title": "Everything you need to solve and improve",
       "card1_title": "A new puzzle every day",
       "card1_body": "Four puzzles each morning across every difficulty, plus twenty more each week. The archive keeps every past puzzle, ready to revisit.",
       "card2_title": "Hints that teach",
@@ -44,7 +44,7 @@
       "free_features": [
         "A fresh Easy puzzle every day",
         "Every past Easy puzzle in the archive",
-        "Smart hints & the Learn section",
+        "Hints that teach & the Learn section",
         "Automatic candidate tracking",
         "Solve puzzles from the newspaper"
       ],
@@ -65,15 +65,15 @@
       "copyright": "© 2024–2026 Anodized Software, Inc. All rights reserved."
     },
     "de": {
-      "tagline": "Smarte Tipps, neue Rätsel.",
-      "lead": "Jeden Morgen vier neue Rätsel, je eines in Einfach, Mittel, Schwer und Experte. Steckst du fest? Die meisten Apps geben dir einfach die Antwort. Tetsudoku zeigt dir den nächsten logischen Schritt und erklärt dann die Strategie dahinter.",
-      "meta_description": "Tetsudoku liefert jeden Morgen vier frische Sudoku-Rätsel und hilft dir, sie zu lösen. Steckst du fest? Es zeigt den nächsten logischen Schritt und erklärt die Strategie dahinter.",
-      "og_description": "Vier frische Sudoku-Rätsel jeden Morgen. Steckst du fest? Tetsudoku zeigt dir den nächsten logischen Schritt und erklärt die Strategie dahinter.",
+      "tagline": "Sudoku meistern, Tag für Tag",
+      "lead": "Jedes Sudoku hat einen logischen Weg bis zum Ende. Tetsudoku bringt dir bei, ihn zu finden. Jeden Morgen kommen vier frische Rätsel, je eines in Einfach, Mittel, Schwer und Experte. Und wenn du feststeckst, gibt es dir nicht die Antwort – es zeigt dir den nächsten Zug.",
+      "meta_description": "Werde jeden Tag ein bisschen besser im Sudoku. Tetsudoku liefert jeden Morgen vier frische Rätsel und zeigt dir, wenn du feststeckst, den nächsten Zug – nicht nur die Antwort.",
+      "og_description": "Sudoku meistern, Tag für Tag. Vier frische Rätsel jeden Morgen – und wenn du feststeckst, zeigt dir Tetsudoku den nächsten Zug, nicht nur die Antwort.",
       "hero_note": "Bald verfügbar · iPhone & iPad · Kostenlos spielbar · 9 Sprachen",
       "badge_label": "Laden im App Store",
       "select_language_label": "Sprache auswählen",
       "toggle_theme_label": "Dunkelmodus umschalten",
-      "features_title": "Alles, um clever zu lösen",
+      "features_title": "Alles, um zu lösen und besser zu werden",
       "card1_title": "Jeden Tag ein neues Rätsel",
       "card1_body": "Jeden Morgen vier Rätsel über alle Schwierigkeitsstufen, plus zwanzig weitere pro Woche. Das Archiv bewahrt jedes vergangene Rätsel auf, jederzeit abrufbar.",
       "card2_title": "Tipps, die dich weiterbringen",
@@ -93,7 +93,7 @@
       "free_features": [
         "Jeden Tag ein neues Einfach-Rätsel",
         "Jedes vergangene Einfach-Rätsel im Archiv",
-        "Smarte Tipps & der Lernen-Bereich",
+        "Tipps, die weiterbringen & der Lernen-Bereich",
         "Automatische Kandidatenverfolgung",
         "Zeitungsrätsel lösen"
       ],
@@ -114,15 +114,15 @@
       "copyright": "© 2024–2026 Anodized Software, Inc. Alle Rechte vorbehalten."
     },
     "es": {
-      "tagline": "Pistas claras, puzzles nuevos.",
-      "lead": "Cada mañana llegan cuatro puzzles nuevos, uno de Fácil, Medio, Difícil y Experto. ¿Atascado en un movimiento? La mayoría de las apps te dan la respuesta. Tetsudoku te muestra el siguiente paso lógico y luego te enseña la estrategia.",
-      "meta_description": "Tetsudoku te ofrece cuatro puzzles de Sudoku nuevos cada mañana y te enseña a resolverlos. ¿Atascado? Te muestra el siguiente paso lógico y explica la estrategia.",
-      "og_description": "Cuatro puzzles de Sudoku nuevos cada mañana. ¿Atascado? Tetsudoku te muestra el siguiente paso lógico y te enseña la estrategia.",
+      "tagline": "Domina el Sudoku, día a día",
+      "lead": "Cada Sudoku tiene un camino lógico hasta el final. Tetsudoku te enseña a encontrarlo. Cada mañana llegan cuatro puzzles nuevos, uno de Fácil, Medio, Difícil y Experto. Y cuando te atascas, no te da la respuesta: te enseña el siguiente paso.",
+      "meta_description": "Mejora en el Sudoku, un día a la vez. Tetsudoku te trae cuatro puzzles nuevos cada mañana y, cuando te atascas, te enseña el siguiente paso, no solo la respuesta.",
+      "og_description": "Domina el Sudoku, día a día. Cuatro puzzles nuevos cada mañana y, cuando te atascas, Tetsudoku te enseña el siguiente paso, no solo la respuesta.",
       "hero_note": "Próximamente · iPhone & iPad · Gratis para jugar · 9 idiomas",
       "badge_label": "Descárgalo en el App Store",
       "select_language_label": "Seleccionar idioma",
       "toggle_theme_label": "Alternar modo oscuro",
-      "features_title": "Todo para resolver con inteligencia",
+      "features_title": "Todo para resolver y mejorar",
       "card1_title": "Un puzzle nuevo cada día",
       "card1_body": "Cuatro puzzles cada mañana en todas las dificultades, más veinte cada semana. El archivo guarda todos los puzzles anteriores, listos para volver a jugar.",
       "card2_title": "Pistas que enseñan",
@@ -142,7 +142,7 @@
       "free_features": [
         "Un puzzle Fácil nuevo cada día",
         "Todos los puzzles Fáciles anteriores del archivo",
-        "Pistas inteligentes y la sección Aprender",
+        "Pistas que enseñan y la sección Aprender",
         "Seguimiento automático de candidatos",
         "Resuelve puzzles del periódico"
       ],
@@ -163,15 +163,15 @@
       "copyright": "© 2024–2026 Anodized Software, Inc. Todos los derechos reservados."
     },
     "fr": {
-      "tagline": "Indices futés, puzzles frais.",
-      "lead": "Chaque matin, quatre nouvelles grilles arrivent, une par niveau : Facile, Moyen, Difficile et Expert. Bloqué sur un coup ? La plupart des applications vous donnent la réponse. Tetsudoku vous montre la prochaine étape logique, puis vous explique la stratégie.",
-      "meta_description": "Tetsudoku vous propose quatre nouvelles grilles de Sudoku chaque matin et vous apprend à les résoudre. Bloqué ? Il montre la prochaine étape logique et explique la stratégie.",
-      "og_description": "Quatre nouvelles grilles de Sudoku chaque matin. Bloqué ? Tetsudoku vous montre la prochaine étape logique et vous explique la stratégie.",
+      "tagline": "Sudoku, mieux chaque jour",
+      "lead": "Chaque Sudoku a un chemin logique jusqu'au bout. Tetsudoku vous apprend à le trouver. Chaque matin, quatre nouvelles grilles arrivent, une par niveau : Facile, Moyen, Difficile et Expert. Et quand vous bloquez, il ne vous donne pas la réponse : il vous apprend le prochain coup.",
+      "meta_description": "Progressez au Sudoku, un jour à la fois. Tetsudoku propose quatre nouvelles grilles chaque matin et, quand vous bloquez, vous apprend le prochain coup, pas seulement la réponse.",
+      "og_description": "Sudoku, mieux chaque jour. Quatre nouvelles grilles chaque matin – et quand vous bloquez, Tetsudoku vous apprend le prochain coup, pas seulement la réponse.",
       "hero_note": "Bientôt disponible · iPhone & iPad · Gratuit · 9 langues",
       "badge_label": "Télécharger dans l'App Store",
       "select_language_label": "Choisir la langue",
       "toggle_theme_label": "Basculer le mode sombre",
-      "features_title": "Tout pour résoudre plus intelligemment",
+      "features_title": "Tout pour résoudre et progresser",
       "card1_title": "Une nouvelle grille chaque jour",
       "card1_body": "Quatre grilles chaque matin, tous niveaux confondus, plus vingt de plus par semaine. Les archives conservent toutes les grilles passées, prêtes à être rejouées.",
       "card2_title": "Des indices qui font progresser",
@@ -191,7 +191,7 @@
       "free_features": [
         "Une nouvelle grille Facile chaque jour",
         "Toutes les grilles Faciles passées dans les archives",
-        "Indices futés et la section Apprendre",
+        "Indices qui font progresser et la section Apprendre",
         "Suivi automatique des candidats",
         "Résolvez les grilles du journal"
       ],
@@ -212,15 +212,15 @@
       "copyright": "© 2024–2026 Anodized Software, Inc. Tous droits réservés."
     },
     "it": {
-      "tagline": "Suggerimenti e puzzle freschi.",
-      "lead": "Ogni mattina arrivano quattro nuovi puzzle, uno per Facile, Medio, Difficile ed Esperto. Bloccato su una mossa? La maggior parte delle app ti dà la risposta. Tetsudoku ti mostra il passo logico successivo e poi ti spiega la strategia.",
-      "meta_description": "Tetsudoku ti offre quattro nuovi puzzle di Sudoku ogni mattina e ti insegna a risolverli. Bloccato? Ti mostra il passo logico successivo e spiega la strategia.",
-      "og_description": "Quattro nuovi puzzle di Sudoku ogni mattina. Bloccato? Tetsudoku ti mostra il passo logico successivo e ti spiega la strategia.",
+      "tagline": "Sudoku, giorno dopo giorno",
+      "lead": "Ogni Sudoku ha un percorso logico fino alla fine. Tetsudoku ti insegna a trovarlo. Ogni mattina arrivano quattro nuovi puzzle, uno per Facile, Medio, Difficile ed Esperto. E quando ti blocchi, non ti dà la risposta: ti insegna la prossima mossa.",
+      "meta_description": "Migliora nel Sudoku, un giorno alla volta. Tetsudoku offre quattro nuovi puzzle ogni mattina e, quando ti blocchi, ti insegna la prossima mossa, non solo la risposta.",
+      "og_description": "Sudoku, giorno dopo giorno. Quattro nuovi puzzle ogni mattina e, quando ti blocchi, Tetsudoku ti insegna la prossima mossa, non solo la risposta.",
       "hero_note": "Presto disponibile · iPhone & iPad · Gratis · 9 lingue",
       "badge_label": "Scarica su App Store",
       "select_language_label": "Seleziona la lingua",
       "toggle_theme_label": "Attiva/disattiva la modalità scura",
-      "features_title": "Tutto per risolvere con astuzia",
+      "features_title": "Tutto per risolvere e migliorare",
       "card1_title": "Un nuovo puzzle ogni giorno",
       "card1_body": "Quattro puzzle ogni mattina in tutte le difficoltà, più venti a settimana. L'archivio conserva tutti i puzzle passati, pronti da rigiocare.",
       "card2_title": "Suggerimenti che insegnano",
@@ -240,7 +240,7 @@
       "free_features": [
         "Un nuovo puzzle Facile ogni giorno",
         "Tutti i puzzle Facile passati nell'archivio",
-        "Suggerimenti intelligenti e la sezione Impara",
+        "Suggerimenti che insegnano e la sezione Impara",
         "Tracciamento automatico dei candidati",
         "Risolvi i puzzle del giornale"
       ],
@@ -261,15 +261,15 @@
       "copyright": "© 2024–2026 Anodized Software, Inc. Tutti i diritti riservati."
     },
     "ja": {
-      "tagline": "スマートなヒント、毎日新鮮な問題。",
-      "lead": "毎朝4問の新しい問題が届きます。かんたん・ふつう・むずかしい・エキスパートが各1問。手が止まったときも、ほかのアプリはただ答えを教えるだけ。Tetsudokuは次の論理的な一手を示し、その戦略まで解説します。",
-      "meta_description": "Tetsudokuは毎朝4問の新鮮な数独をお届けし、解き方まで教えます。詰まったら、次の論理的な一手を示し、その戦略を解説します。",
-      "og_description": "毎朝4問の新鮮な数独。詰まったら、Tetsudokuが次の論理的な一手を示し、その戦略を解説します。",
+      "tagline": "毎日の数独で、着実に上達",
+      "lead": "どの数独にも、最後までたどり着く論理的な道があります。Tetsudokuは、その見つけ方を教えます。毎朝4問の新しい問題が届きます。かんたん・ふつう・むずかしい・エキスパートが各1問。手が止まっても、答えをそのまま教えるのではなく、次の一手を教えます。",
+      "meta_description": "数独が毎日少しずつ上達。Tetsudokuは毎朝4問の新しい問題をお届けし、手が止まったら答えだけでなく次の一手を教えます。",
+      "og_description": "毎日の数独で、着実に上達。毎朝4問の新しい問題。手が止まったら、Tetsudokuが答えだけでなく次の一手を教えます。",
       "hero_note": "近日公開 · iPhone・iPad · 無料でプレイ · 9言語対応",
       "badge_label": "App Store で手に入れよう",
       "select_language_label": "言語を選択",
       "toggle_theme_label": "ダークモードを切り替え",
-      "features_title": "賢く解くためのすべて",
+      "features_title": "解いて上達するためのすべて",
       "card1_title": "毎日新しい問題",
       "card1_body": "毎朝、全難易度で4問。さらに毎週20問追加。アーカイブには過去の問題がすべて保存され、いつでも再挑戦できます。",
       "card2_title": "学べるヒント",
@@ -289,7 +289,7 @@
       "free_features": [
         "毎日1問のかんたん問題",
         "アーカイブの過去のかんたん問題すべて",
-        "スマートヒントと「学ぶ」セクション",
+        "学べるヒントと「学ぶ」セクション",
         "候補数字の自動管理",
         "新聞の問題を解く"
       ],
@@ -310,15 +310,15 @@
       "copyright": "© 2024–2026 Anodized Software, Inc. All rights reserved."
     },
     "ko": {
-      "tagline": "스마트 힌트, 매일 새 퍼즐.",
-      "lead": "매일 아침 새 퍼즐 4개가 도착합니다. 쉬움, 보통, 어려움, 전문가 각 1개씩. 한 수가 막혔나요? 대부분의 앱은 그냥 정답을 알려 줍니다. Tetsudoku는 다음 논리적 한 수를 짚어 주고, 그 뒤의 전략까지 알려 줍니다.",
-      "meta_description": "Tetsudoku는 매일 아침 새 스도쿠 퍼즐 4개를 제공하고 푸는 법까지 알려 줍니다. 막혔나요? 다음 논리적 한 수를 짚어 주고 전략을 설명합니다.",
-      "og_description": "매일 아침 새 스도쿠 퍼즐 4개. 막혔나요? Tetsudoku가 다음 논리적 한 수를 짚어 주고 전략을 알려 줍니다.",
+      "tagline": "스도쿠, 하루하루 실력 향상",
+      "lead": "모든 스도쿠에는 끝까지 이어지는 논리적인 길이 있습니다. Tetsudoku는 그 길을 찾는 법을 알려 줍니다. 매일 아침 새 퍼즐 4개가 도착합니다. 쉬움, 보통, 어려움, 전문가 각 1개씩. 그리고 막혔을 때, 정답을 알려 주는 대신 다음 한 수를 가르쳐 줍니다.",
+      "meta_description": "하루하루 스도쿠 실력이 늘어요. Tetsudoku는 매일 아침 새 퍼즐 4개를 제공하고, 막히면 정답이 아니라 다음 한 수를 가르쳐 줍니다.",
+      "og_description": "스도쿠, 하루하루 실력 향상. 매일 아침 새 퍼즐 4개, 막히면 Tetsudoku가 정답이 아니라 다음 한 수를 가르쳐 줍니다.",
       "hero_note": "출시 예정 · iPhone・iPad · 무료 플레이 · 9개 언어",
       "badge_label": "App Store에서 다운로드하기",
       "select_language_label": "언어 선택",
       "toggle_theme_label": "다크 모드 전환",
-      "features_title": "똑똑하게 푸는 데 필요한 모든 것",
+      "features_title": "풀고 실력을 키우는 데 필요한 모든 것",
       "card1_title": "매일 새로운 퍼즐",
       "card1_body": "매일 아침 모든 난이도로 4개, 매주 20개가 추가됩니다. 보관함에는 지난 퍼즐이 모두 저장되어 언제든 다시 풀 수 있습니다.",
       "card2_title": "가르쳐 주는 힌트",
@@ -338,7 +338,7 @@
       "free_features": [
         "매일 새 쉬움 퍼즐 1개",
         "보관함의 지난 쉬움 퍼즐 전체",
-        "스마트 힌트와 배우기 섹션",
+        "가르쳐 주는 힌트와 배우기 섹션",
         "후보 숫자 자동 관리",
         "신문 퍼즐 풀기"
       ],
@@ -359,15 +359,15 @@
       "copyright": "© 2024–2026 Anodized Software, Inc. All rights reserved."
     },
     "pt-BR": {
-      "tagline": "Dicas espertas, puzzles novos.",
-      "lead": "Toda manhã chegam quatro puzzles novos, um de Fácil, Médio, Difícil e Especialista. Travado em uma jogada? A maioria dos apps te dá a resposta. O Tetsudoku mostra o próximo passo lógico e depois te ensina a estratégia.",
-      "meta_description": "O Tetsudoku traz quatro puzzles de Sudoku novos toda manhã e ensina você a resolvê-los. Travado? Ele mostra o próximo passo lógico e explica a estratégia.",
-      "og_description": "Quatro puzzles de Sudoku novos toda manhã. Travado? O Tetsudoku mostra o próximo passo lógico e te ensina a estratégia.",
+      "tagline": "Sudoku, melhor a cada dia",
+      "lead": "Todo Sudoku tem um caminho lógico até o fim. O Tetsudoku ensina você a encontrá-lo. Toda manhã chegam quatro puzzles novos, um de Fácil, Médio, Difícil e Especialista. E quando você trava, ele não te dá a resposta: ensina a próxima jogada.",
+      "meta_description": "Fique melhor no Sudoku, um dia de cada vez. O Tetsudoku traz quatro puzzles novos toda manhã e, quando você trava, ensina a próxima jogada, não só a resposta.",
+      "og_description": "Sudoku, melhor a cada dia. Quatro puzzles novos toda manhã e, quando você trava, o Tetsudoku ensina a próxima jogada, não só a resposta.",
       "hero_note": "Em breve · iPhone & iPad · Grátis para jogar · 9 idiomas",
       "badge_label": "Baixe na App Store",
       "select_language_label": "Selecionar idioma",
       "toggle_theme_label": "Alternar modo escuro",
-      "features_title": "Tudo para resolver com esperteza",
+      "features_title": "Tudo para resolver e evoluir",
       "card1_title": "Um puzzle novo todo dia",
       "card1_body": "Quatro puzzles toda manhã em todas as dificuldades, mais vinte por semana. O arquivo guarda todos os puzzles anteriores, prontos para revisitar.",
       "card2_title": "Dicas que ensinam",
@@ -387,7 +387,7 @@
       "free_features": [
         "Um puzzle Fácil novo todo dia",
         "Todos os puzzles Fáceis anteriores no arquivo",
-        "Dicas inteligentes e a seção Aprender",
+        "Dicas que ensinam e a seção Aprender",
         "Controle automático de candidatos",
         "Resolva puzzles do jornal"
       ],
@@ -408,15 +408,15 @@
       "copyright": "© 2024–2026 Anodized Software, Inc. Todos os direitos reservados."
     },
     "zh-Hans": {
-      "tagline": "智能提示，每日新题。",
-      "lead": "每天早晨送上四道新题，简单、中等、困难、专家各一道。卡在某一步？大多数应用直接给你答案。Tetsudoku 会指出下一步的逻辑推导，再为你讲解背后的策略。",
-      "meta_description": "Tetsudoku 每天早晨送上四道新数独，并教你如何求解。卡关了？它会指出下一步逻辑推导，并讲解策略。",
-      "og_description": "每天早晨四道新数独。卡关了？Tetsudoku 会指出下一步逻辑推导，并为你讲解策略。",
+      "tagline": "数独精进，日积月累",
+      "lead": "每一道数独都有一条通向终点的逻辑路径，Tetsudoku 教你找到它。每天早晨送上四道新题，简单、中等、困难、专家各一道。卡关时，它不会直接给你答案，而是教你走下一步。",
+      "meta_description": "每天进步一点，数独越玩越强。Tetsudoku 每天早晨送上四道新题；卡关时，会教你下一步，而不只是给出答案。",
+      "og_description": "数独精进，日积月累。每天早晨四道新题；卡关时，Tetsudoku 会教你下一步，而不只是给出答案。",
       "hero_note": "即将推出 · iPhone・iPad · 免费畅玩 · 支持 9 种语言",
       "badge_label": "在 App Store 下载",
       "select_language_label": "选择语言",
       "toggle_theme_label": "切换深色模式",
-      "features_title": "聪明解题，一应俱全",
+      "features_title": "解题进步，一应俱全",
       "card1_title": "每天一道新题",
       "card1_body": "每天早晨涵盖各难度的四道题，每周再加二十道。存档保存所有历史题目，随时可以重温。",
       "card2_title": "会教你的提示",
@@ -436,7 +436,7 @@
       "free_features": [
         "每天一道新的简单题",
         "存档中所有历史简单题",
-        "智能提示与“学习”专区",
+        "会教你的提示与“学习”专区",
         "候选数自动追踪",
         "求解报纸上的题目"
       ],
